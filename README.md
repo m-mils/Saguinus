@@ -47,6 +47,4 @@ Core functionality is in place, but several systems are still evolving and may b
 
 ---
 
-## 🧭 Current Focus
 
-The project is prioritizing rendering stability, visual consistency, and feature completion before broader refinement work begins.
