@@ -26,7 +26,7 @@ There are no enforced structures, hierarchies, or workflows — you decide how t
 
 ## 🖼️ Preview
 
-![Saguinus Preview](./assets/welcome.PNG)
+![Saguinus Preview](./assets/welcome.PNG =200x200)
 
 ---
 
