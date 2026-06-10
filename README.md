@@ -47,4 +47,37 @@ Core functionality is in place, but several systems are still evolving and may b
 
 ---
 
+### Known Issues – v0.2.0
 
+This release includes several improvements and partial fixes from v0.1.0, along with new functionality and ongoing stability work. Some previously identified issues have been resolved, while others remain in progress.
+
+#### Improvements and Fixed Issues
+
+* Images now supported in editorImage rendering has been extended from preview-only to include editor support. Consistency between editor and export is still being refined.
+
+* Font customization partially resolvedFont customization controls now function correctly within the editor. However, export support for font styling remains incomplete.
+
+* Reduced layout inconsistencies (partial fix)Some editor layout shifting issues observed in v0.1.0 have been improved, though edge cases may still occur under certain window conditions.
+---
+
+#### Remaining Known Issues
+
+* Incorrect PDF export filenameExported PDF files still default to the in-app document name instead of the user-defined export dialog name.
+
+* Unstable export font stylingFont styling in exported documents is not stable. Font size adjustments are currently not applied consistently.
+
+* Code block duplication on pasteCopy-pasting code blocks may result in an additional unwanted wrapper or header being created.
+
+* Missing or incomplete formatting featuresThe following formatting features are not yet implemented or are only partially supported:
+
+* *  Links
+* * Mathematical expressions
+
+* * Strikethrough text
+
+* * Checkbox lists
+
+* Editor responsive layout issueThe editor may shrink when the application window is not maximized and can initialize with incorrect dimensions in some cases.
+
+* Inline formatting serialization issueInline formatting is not consistently converted to Markdown. Instead, it may be stored or rendered as rich text.
+---
