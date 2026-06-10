@@ -1,26 +1,76 @@
 # 🚀 Saguinus
 
-A lightweight writing environment for standalone documents and focused content creation.
+A document-focused writing environment powered by Markdown.
 
-Built for speed, simplicity, and direct interaction with your writing.
+Saguinus is designed to feel like a modern document editor, while using Markdown as its underlying format for structure and portability.
 
----
-
-## ✨ Core Capabilities
-
-### 🧠 Distraction-Free Editing
-A minimal writing surface designed to reduce friction and keep attention on content creation.
-
-- Responsive and lightweight interface  
-- Smooth scrolling and live rendering  
-- Optimized for uninterrupted writing flow  
+The goal is simple:  
+write in a clean, document-style interface without losing the flexibility of Markdown.
 
 ---
 
-### 📄 Independent Documents
-Each file exists as a self-contained unit.
+## ✨ What Saguinus is
 
-There are no enforced structures, hierarchies, or workflows — you decide how to organize your work.
+Saguinus is a **document writer**, not a notes system or knowledge base.
+
+It focuses on:
+
+- Writing structured documents in a familiar editor-like experience
+- Keeping content as standalone files
+- Using Markdown internally for consistency and portability
+- Providing a smooth, document-first workflow
+
+You write like you would in a traditional document editor, while Markdown handles structure behind the scenes.
+
+---
+
+## 🧠 Key Capabilities
+
+### 📝 Document-first editing experience
+Saguinus is designed to behave like a modern writing environment:
+
+- Continuous document flow (not block-based note systems)
+- Live rendering while editing
+- Minimal UI interference
+
+---
+
+### ⚙️ Markdown-powered engine
+All documents are based on Markdown internally.
+
+This ensures:
+- Clean structured output
+- Portability of content
+- Predictable formatting behavior
+
+Markdown is not the interface — it is the foundation.
+
+---
+
+### 📄 Independent documents
+Each file is a standalone document.
+
+There are no required folders, hierarchies, or systems to manage — just documents.
+
+---
+
+### 🖼️ Media support
+Images can be embedded directly into documents and aligned:
+
+- Left
+- Center
+- Right
+
+---
+
+### ⚡ Writing shortcuts
+Keyboard shortcuts for faster document editing:
+
+- Bold
+- Italic
+- Save
+- New document
+- Export to PDF
 
 ---
 
@@ -30,54 +80,47 @@ There are no enforced structures, hierarchies, or workflows — you decide how t
 
 ---
 
-## ⚠️ Testing Phase Notice
+## ⚠️ Project Status
 
-Saguinus is currently in active development and should be considered a testing-stage product.
+Saguinus is in active pre-release development.
 
-Core functionality is in place, but several systems are still evolving and may behave inconsistently.
-
-### Known issues (v0.1.0)
-
-- Editor layout may shift slightly during rendering cycles  
-- Tables and code blocks are not yet visually polished  
-- Newly created pages may load with a short delay  
-- Differences may appear between editor view and exported preview  
-- Images are currently restricted to preview rendering only  
-- Font customization controls are not yet functional  
+Core document editing is functional, but export and formatting systems are still evolving.
 
 ---
 
-### Known Issues – v0.2.0
+## 🔧 Known Issues
 
-This release includes several improvements and partial fixes from v0.1.0, along with new functionality and ongoing stability work. Some previously identified issues have been resolved, while others remain in progress.
+### Editor & rendering
+- Minor layout shifts during rendering cycles
+- Window resizing inconsistencies in some cases
+- New documents may load with a short delay
 
-#### Improvements and Fixed Issues
+### Export system
+- Preview and PDF export may not always match exactly
+- PDF filename does not yet use custom export name
+- Export font styling is unstable (especially font size)
 
-* Images now supported in editorImage rendering has been extended from preview-only to include editor support. Consistency between editor and export is still being refined.
+### Formatting limitations
+- Links not yet implemented
+- Mathematical expressions not yet implemented
+- Strikethrough not yet implemented
+- Checkbox lists not yet implemented
 
-* Font customization partially resolvedFont customization controls now function correctly within the editor. However, export support for font styling remains incomplete.
+### Editing behavior
+- Code block duplication may occur when pasting
+- Inline formatting is not consistently serialized to Markdown
 
-* Reduced layout inconsistencies (partial fix)Some editor layout shifting issues observed in v0.1.0 have been improved, though edge cases may still occur under certain window conditions.
 ---
 
-#### Remaining Known Issues
+## 🚀 Direction
 
-* Incorrect PDF export filenameExported PDF files still default to the in-app document name instead of the user-defined export dialog name.
+Current focus:
+- Stabilizing export consistency (Preview → PDF alignment)
+- Improving formatting system reliability
+- Expanding Markdown feature coverage
 
-* Unstable export font stylingFont styling in exported documents is not stable. Font size adjustments are currently not applied consistently.
-
-* Code block duplication on pasteCopy-pasting code blocks may result in an additional unwanted wrapper or header being created.
-
-* Missing or incomplete formatting featuresThe following formatting features are not yet implemented or are only partially supported:
-
-  *  Links
-  * Mathematical expressions
-
-  * Strikethrough text
-
-  * Checkbox lists
-
-* Editor responsive layout issueThe editor may shrink when the application window is not maximized and can initialize with incorrect dimensions in some cases.
-
-* Inline formatting serialization issueInline formatting is not consistently converted to Markdown. Instead, it may be stored or rendered as rich text.
 ---
+
+## 🎯 Goal
+
+Saguinus aims to provide a clean, document-first writing experience with the flexibility and structure of Markdown underneath.
