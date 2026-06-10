@@ -70,12 +70,12 @@ This release includes several improvements and partial fixes from v0.1.0, along 
 
 * Missing or incomplete formatting featuresThe following formatting features are not yet implemented or are only partially supported:
 
-* *  Links
-* * Mathematical expressions
+  *  Links
+  * Mathematical expressions
 
-* * Strikethrough text
+  * Strikethrough text
 
-* * Checkbox lists
+  * Checkbox lists
 
 * Editor responsive layout issueThe editor may shrink when the application window is not maximized and can initialize with incorrect dimensions in some cases.
 
