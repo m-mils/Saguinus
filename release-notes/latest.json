@@ -1,4 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "v0.2.1.md"
+  "version": "0.2.2",
+  "notes": "v0.2.2.md",
+  "files": [
+    {
+      "url": "https://github.com/m-mils/Saguinus/releases/download/v0.2.2/Saguinus-0.2.2.exe",
+      "sha256": "960c667c742e2144c5260491df06480be3fb368f63db933f9fdb754f0eb194c4",
+      "size": 113390107
+    }
+  ]
 }
