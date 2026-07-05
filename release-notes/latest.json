@@ -1,11 +1,24 @@
 {
-  "version": "0.2.4",
-  "notes": "v0.2.4.md",
+  "version": "0.2.5",
+  "notes": "v0.2.5.md",
   "files": [
     {
-      "url": "https://github.com/m-mils/Saguinus/releases/download/v0.2.4/Saguinus-0.2.4.exe",
-      "sha256": "dffb5669ffb36ceac62c704ee8a776037acb4eaf9209ccfd040d60ca405855ec",
-      "size": 121728921
+      "platform": "win32",
+      "url": "https://github.com/m-mils/Saguinus/releases/download/v0.2.5/Saguinus-0.2.5.exe",
+      "sha256": "6c832b892231254cae970f024cb431fef26e99bf7e3b6cc9e7b9ac7cb599eff4",
+      "size": 114761997
+    },
+    {
+      "platform": "linux",
+      "url": "https://github.com/m-mils/Saguinus/releases/download/v0.2.5/Saguinus-0.2.5.AppImage",
+      "sha256": "5ff240d0569da2427d43ec11172b5313de84e0adb8f75b10ac1799c8b2481380",
+      "size": 144235715
+    },
+    {
+      "platform": "darwin",
+      "url": "https://github.com/m-mils/Saguinus/releases/download/v0.2.5/Saguinus-0.2.5.dmg",
+      "sha256": "9dcf9108c1876def6b5a03b259612dda4c04c18fd8d8704b1c60549d6eed73fb",
+      "size": 236678404
     }
   ]
 }
